@@ -74,13 +74,9 @@ git clone git@github.com:snewman-aa/dotfiles.git ~/dotfiles
    ln -sf ~/dotfiles/.zshrc ~/.zshrc
    ```
 
-4. Install custom plugins if needed:
+4. Link the oh-my-zsh themes and plugins
    ```bash
-   # Example: Install zsh-syntax-highlighting
-   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-   
-   # Example: Install zsh-autosuggestions
-   git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   ln -sf ~/dotfiles/.oh-my-zsh-custom/custom ~/.oh-my-zsh/custom
    ```
 
 5. Source your configuration:
@@ -104,3 +100,18 @@ I already have it setup in these dotfiles. It's in `.oh-my-zsh/custom/themes` an
    ```
 
 2. Follow the import guide from the [catppuccin repo](https://github.com/catppuccin/iterm)
+
+   1. Clone the repository, or
+      [download](https://github.com/catppuccin/iterm/tree/main/colors) to pick and
+      choose specific flavours.
+   2. Launch iTerm
+   3. Press CMD+i (⌘+i)
+   4. Navigate to the **Colors** tab
+   5. Click on **Color Presets**
+   6. Click on **Import**
+   7. Navigate to the directory where you downloaded the files, and select the
+      files.
+      \
+      If you cloned the repo, they are in the `colors/` directory.
+   8. Click on **Color Presets** and choose the Catppuccin flavour
+   9. Enjoy! :sparkles:
