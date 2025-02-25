@@ -111,7 +111,6 @@ source ~/.zsh/catppuccin_macchiato-zsh-syntax-highlighting.zsh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias rm="trash"
 
 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
