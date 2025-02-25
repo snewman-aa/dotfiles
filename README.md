@@ -38,6 +38,22 @@ git clone git@github.com:snewman-aa/dotfiles.git ~/dotfiles
 
 4. Enable Accessibility permissions for Aerospace when prompted.
 
+My `aerospace.toml` has some pretty specific space names and scripts for automatically assigning certain windows to certain spaces. For example:
+
+```toml
+[[on-window-detected]]
+    if.app-name-regex-substring = 'discord'
+    run = 'move-node-to-workspace Discord'
+```
+
+`.toml` files are pretty intuitive to modify, so mine might be a good jumping off point if you want spaces with custom names instead of A-Z 0-9. The keyboard shortcut matches the first letter of the custom space name.
+
+
+#### Jankyborders
+[Jankyborders](https://github.com/FelixKratz/JankyBorders) is a lightweight tool designed to add colored borders to user windows on macOS 14.0+. It enhances the user experience by visually highlighting the currently focused window without relying on the accessibility API, thereby being faster than comparable tools.
+
+I use it with Aerospace for highlighting the currently focused window when I have multiple tiles.
+
 ### tmux
 
 [tmux](https://github.com/tmux/tmux) is a terminal multiplexer that lets you switch between several programs in one terminal.
