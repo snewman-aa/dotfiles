@@ -2,6 +2,7 @@
 
 This repository contains my personal configuration files for:
 - Aerospace (window manager)
+   - Jankyborders (borders for focused windows)
 - tmux (terminal multiplexer)
 - Oh My Zsh (zsh framework)
    - Spaceship (zsh prompt/theme)

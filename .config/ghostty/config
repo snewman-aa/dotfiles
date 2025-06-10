@@ -1,0 +1,18 @@
+theme = catppuccin-macchiato.conf
+font-family = "JetBrainsMono Nerd Font"
+
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+mouse-hide-while-typing = true
+
+macos-titlebar-style = hidden
+
+keybind = cmd+t=unbind
+keybind = cmd+n=unbind
+keybind = cmd+c=unbind
+keybind = cmd+w=unbind
+keybind = cmd+opt+left=unbind
+keybind = cmd+opt+right=unbind
+keybind = cmd+d=unbind
+keybind = cmd+f=unbind

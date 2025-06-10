@@ -100,6 +100,8 @@ source ~/.zsh/catppuccin_macchiato-zsh-syntax-highlighting.zsh
 #   export EDITOR='mvim'
 # fi
 
+export EDITOR='nvim'
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -112,6 +114,8 @@ source ~/.zsh/catppuccin_macchiato-zsh-syntax-highlighting.zsh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias ls=eza
+
 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
@@ -123,3 +127,7 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 #alias python=/usr/bin/python3
 #alias pip=pip3
 . "$HOME/.local/bin/env"
+
+# LLM API Keys
+export GEMINI_API_KEY=AIzaSyC9Jw9egegRR73RGr-5Ty3l0x_pYzRRBXg
+eval "$(zellij setup --generate-auto-start zsh)"
