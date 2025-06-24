@@ -129,5 +129,4 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 . "$HOME/.local/bin/env"
 
 # LLM API Keys
-export GEMINI_API_KEY=AIzaSyC9Jw9egegRR73RGr-5Ty3l0x_pYzRRBXg
 eval "$(zellij setup --generate-auto-start zsh)"
